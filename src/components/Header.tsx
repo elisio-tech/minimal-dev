@@ -12,9 +12,9 @@ export default function Header() {
   return (
     <header>
       <nav className="max-w-4xl py-8 mx-4 sm:mx-auto flex justify-between items-center">
-        <Link to={"/work"}>E.</Link>
+        <Link className="font-[Oswald]" to={"/work"}>E.</Link>
 
-        <ul className="flex gap-12 rounded-4xl px-6 py-4 shadow-4xl shadow-gray-600 bg-zinc-200">
+        <ul className="flex justify-center items-center gap-12 rounded-4xl px-6 py-4 shadow-4xl shadow-gray-600 bg-zinc-200">
           {navLinks.map((item, i) => (
             <Link
               key={i}
