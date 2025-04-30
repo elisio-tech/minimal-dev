@@ -5,14 +5,14 @@ export default function Header() {
   const [activeLink, setActiveLink] = useState("Work");
 
   const navLinks = [
-    { title: "Work", path: "/work" },
+    { title: "Work", path: "/" },
     { title: "Play", path: "/play" },
   ];
 
   return (
     <header>
       <nav className="max-w-4xl py-8 mx-4 sm:mx-auto flex justify-between items-center">
-        <Link className="font-[Oswald]" to={"/work"}>E.</Link>
+        <Link className="font-[Oswald]" to={"/"}>E.</Link>
 
         <ul className="flex justify-center items-center gap-12 rounded-4xl px-6 py-4 shadow-4xl shadow-gray-600 bg-zinc-200">
           {navLinks.map((item, i) => (
