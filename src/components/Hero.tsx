@@ -11,12 +11,12 @@ import { SiTailwindcss } from "react-icons/si";
 export default function Hero() {
   return (
     <section className="py-32 text-zinc-700 relative overflow-hidden max-w-4xl mx-auto">
-      <div className="max-w-md mx-auto text-center flex flex-col gap-6 z-10 relative">
+      <div className="max-w-md mx-auto text-center flex flex-col gap-8 z-10 relative">
         <h1 className="text-7xl font-bold bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
           Hi, I'm Olivier
         </h1>
-        <div className="flex justify-center items-center gap-4">
-          <Location variant="Bold" size="24" color="#000" />
+        <div className="flex justify-center items-center gap-x-4">
+          <Location  size="24" color="#000" />
           <span>Brooklyn, NY</span>
         </div>
         <p className="text-md">
