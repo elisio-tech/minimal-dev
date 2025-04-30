@@ -21,7 +21,7 @@ export default function Header() {
               to={item.path}
               onClick={() => setActiveLink(item.title)}
               className={`cursor-pointer ${
-                activeLink === item.title ? "text-red-600 font-bold" : "text-zinc-700"
+                activeLink === item.title ? "text-zinc-800 font-bold" : "text-zinc-700"
               }`}
             >
               {item.title}
